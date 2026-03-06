@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0068)https://knighthawk0811.github.io/Intro-HTML-CSS//m04/index-copy.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <body style = "background-color: #0a0e27; color: #e0e0e0; font-family: Arial, sans-serif ; line-height: 1.6 ;">
     <title>Electric Tech Hub</title>
     <style>
         /* Element Selectors */
@@ -131,461 +130,88 @@
             border: 2px solid #ff00ff;
             text-align: center;
         }
+
+
+        body {
+          background-color: #0a0e27;
+          color: #e0e0e0;
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+        }
+
+        header {
+          background-color: #0f1a3d;
+          padding:2rem;
+          border-bottom: #ff00ff 3px solid;
+          margin-bottom: 2rem;
+        }
+
+        footer {
+          background-color: #0f1a3d;
+          color: #00d4ff;
+          padding: 2rem;
+          text-align: center;
+          border-top:#00d4ff solid 3px;
+        }
+
+        h1 {
+          color: #ff00ff;
+          font-size: 2.5rem;
+          margin-bottom: 0.5rem;
+        }
+
+        h2{
+          color: #00d4ff;
+          font-size: 1.8rem;
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+          padding-bottom: 0.5rem;
+          border-bottom: #ff00ff solid 2px;
+        }
+
+        h3{
+          color: #ff00ff;
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem;
+        }
+
+        a{
+          color: #00d4ff;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        a:hover{
+          color: #ff00ff;
+        }
+
+      .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 1.5;
+        padding-right: 1.5;
+      }
+      .section{
+        background-color: #0f1a3d;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-left: #00d4ff solid 5px;
+        border-radius: 8px;
+      }
+
     </style>
-<style>
-@keyframes ggt-annotate-pulse {
-  from {
-    transform: scale(1);
-  }
-  10% {
-    transform: scale(0.91);
-  }
-  17% {
-    transform: scale(0.98);
-  }
-  33% {
-    transform: scale(0.87);
-  }
-  45% {
-    transform: scale(1);
-  }
-};
-</style><style>.f4wp3soi2Iz7cL8_mBs6 {
-  filter: hue-rotate(310deg) saturate(1.5) grayscale(0%) !important;
-  -webkit-filter: hue-rotate(310deg) saturate(1.5) grayscale(0%) !important;
-  animation: unset !important;
-  -webkit-animation: unset !important;
-  animation-iteration-count: unset !important;
-  -webkit-animation-iteration-count: unset !important;
-  opacity: 1 !important;
-}
-
-.QL9G5PpDdywx4j2ui923 {
-  filter: hue-rotate(55deg) saturate(1.5) grayscale(0%) !important;
-  -webkit-filter: hue-rotate(55deg) saturate(1.5) grayscale(0%) !important;
-  animation: unset !important;
-  -webkit-animation: unset !important;
-  animation-iteration-count: unset !important;
-  -webkit-animation-iteration-count: unset !important;
-  opacity: 1 !important;
-}
-
-.Oo2MI2VIHvBW0d3CNQFf {
-  all: unset !important;
-  position: fixed !important;
-  inset: 0 !important;
-  z-index: var(--gg-max-safe-z-index) !important;
-  background-color: rgba(0, 0, 0, 0.55) !important;
-  padding: 10% 22% !important;
-}
-
-.bsMCAr_1yx38G28xSnp0 {
-  all: unset !important;
-  display: flex !important;
-  padding: 40px 40px 80px 40px !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  text-align: center !important;
-  gap: 16px !important;
-  border-radius: 24px !important;
-  background: white !important;
-  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.01) !important;
-  font-family: "system-ui" !important;
-}
-
-.mK6GsL_ksD76QBv2Q9Rm {
-  all: unset !important;
-  align-self: end !important;
-  cursor: pointer !important;
-  width: 28px !important;
-  height: 28px !important;
-}
-
-.ZRdpyHz_lPKJTduRoi2r {
-  all: unset !important;
-  color: #737373 !important;
-  font-size: 16px !important;
-  font-style: normal !important;
-  font-weight: 600 !important;
-  line-height: 20px !important;
-}
-
-.IouG7eaxgvWr8ZI5V33y {
-  all: unset !important;
-  color: #262626 !important;
-  font-size: 28px !important;
-  font-style: normal !important;
-  font-weight: 600 !important;
-  line-height: 36px !important;
-  max-width: 50% !important;
-}
-
-.YhdyXKVdzY35BFihC2qA {
-  all: unset !important;
-  display: -webkit-box !important;
-  -webkit-box-orient: vertical !important;
-  line-clamp: 1 !important;
-  -webkit-line-clamp: 1 !important;
-  overflow: hidden !important;
-  -webkit-box-orient: vertical !important;
-  -webkit-line-clamp: 1 !important;
-  color: #262626 !important;
-  text-overflow: ellipsis !important;
-  font-size: 16px !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  line-height: 24px !important;
-}
-
-.bHZUZBmaR2PRIcnonKfj {
-  all: unset !important;
-  display: flex !important;
-  color: #262626 !important;
-  width: 400px !important;
-  padding: 24px 0px !important;
-  flex-direction: column !important;
-  font-size: 16px !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 12px !important;
-  border-radius: 8px !important;
-  background-color: #f7f8fa !important;
-}
-
-.xzM886eGcfGojrQZEDVg {
-  all: unset !important;
-  color: #595959 !important;
-  font-size: 14px !important;
-}
-
-.c02YVWC3ItBlsPlnjpIg {
-  all: unset !important;
-  color: #262626 !important;
-  font-weight: bold !important;
-}
-</style><style>.CHyAgqPbx_yuoH5uy3fA {
-  all: inherit;
-  position: fixed;
-  z-index: 2147483638;
-  transform: translate3d(0, 0, 0);
-  height: 150px;
-  min-width: 42px;
-  pointer-events: none;
-}
-
-.c7PfBJGDinK5Bw9mX7X1 {
-  all: initial !important;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-}
-
-.wX6Ok7uuj0zTzTimF5wb {
-  all: initial !important;
-  font-family: helvetica, arial, sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  line-height: 18px !important;
-}
-
-.oojVDlbQ8aUE1WHqV0hZ {
-  all: inherit;
-  background: white;
-  box-sizing: border-box;
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-  border: 1px solid #717171;
-  padding: 24px;
-  color: #6f6f6f;
-  font-size: 12px;
-  width: 380px;
-  height: 100%;
-  position: absolute;
-
-  .k4AUZjsXaZZszZI4r2hX {
-    all: revert;
-    font-size: 12px;
-    font-weight: 400;
-    color: #6f6f6f;
-    margin-top: 0px;
-    margin-bottom: 16px;
-
-    strong {
-      color: #000;
-      font-weight: 700;
-      font-size: 15px;
-      line-height: 1.5;
-      font-family: helvetica, arial, sans-serif !important;
-    }
-  }
-
-  p {
-    font-size: 12px;
-    margin: 0 0 16px;
-    line-height: 18px;
-    padding: 0;
-  }
-}
-
-.oojVDlbQ8aUE1WHqV0hZ.QTXPy_h3jSEXtt1vMRgV {
-  display: block;
-}
-
-.oojVDlbQ8aUE1WHqV0hZ.eQUoBAGM4TK9cyX55I5S {
-  display: none;
-}
-
-.gSuwB40dhy9p0S8mO4_A {
-  all: unset;
-  display: block;
-  position: absolute;
-  pointer-events: all;
-  height: 42px;
-  width: 42px;
-  border-radius: 50%;
-  background-color: #078aab;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-  top: 16px;
-
-  &:hover {
-    cursor: pointer;
-  }
-
-  &:focus {
-    outline: 5px auto #0097cf;
-  }
-}
-
-.C0oEISkoiBHvRg2Tr4Dy {
-  background-color: #d9d9d9 !important;
-  border-radius: 2px !important;
-  float: right !important;
-  font-size: 12px !important;
-  text-transform: uppercase !important;
-  border: 1px solid #d9d9d9 !important;
-  color: #000 !important;
-  cursor: pointer !important;
-  font-weight: 600 !important;
-  padding: 4px 16px !important;
-  line-height: 1.5 !important;
-  letter-spacing: 0.5px !important;
-  font-family: helvetica, arial, sans-serif !important;
-}
-
-.QYJ27ZD_xSov6xX3D9jB {
-  all: unset;
-  display: inline-block;
-  height: 42px;
-  width: 42px;
-  color: white;
-}
-
-.dV9ESxaqZaFn_Y3FEReD {
-  margin-right: 21px;
-  padding-right: 36px;
-  right: 0;
-}
-
-.nnquEGgT1me8UakMNiUQ {
-  margin-left: 21px;
-  padding-left: 36px;
-  left: 0;
-}
-</style><style>.WMxS1J6ioJ9GGcB7jpSt {
-  font-family: "Open Sans", sans-serif;
-  color: #000;
-  background-color: #fff;
-  margin: 0;
-  position: fixed;
-  bottom: 5%;
-  right: 30px;
-  width: 40%;
-  z-index: var(--gg-max-safe-z-index);
-}
-
-.KEqVTIMgp6xa3EhIF8su {
-  background: #fff;
-  padding: 27px 45px;
-  font-size: 16px;
-  position: relative;
-  border-left: 12.7px solid #0097cf;
-  line-height: 1.5;
-  word-spacing: 0.16em;
-  font-weight: 400;
-}
-
-._1i1qEpvkNkNHb3_Wo92 {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  z-index: 1;
-  background: transparent;
-  border: transparent;
-  margin: 0;
-  padding: 0;
-}
-
-.DdblROjO1FZxLD91RzUK {
-  width: 24px;
-  height: 24px;
-  color: #757575;
-  cursor: pointer;
-}
-</style><style>.To7Rzi0O1nlffaEHzn94 {
-  all: unset;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-  overflow: hidden;
-  transition-delay: 0.5s;
-  transition-property: height, width;
-}
-
-.GQwzK0l7JB47IVa7fZmX {
-  height: 100%;
-  width: 100%;
-  transition-delay: 0s;
-}
-
-.t0W1qu3qBahmkXdEPA3S {
-  all: unset;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.95);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  opacity: 0;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.35s;
-  transition-property: opacity;
-}
-
-.qit3QTAcJj8MDbtOxkD1 {
-  all: unset;
-  position: absolute;
-  background-color: white;
-  z-index: 101;
-  padding: 40px 40px 20px;
-  width: 460px;
-  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.28);
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-  transform: translate(-50%, -50%);
-  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-duration: 0.35s;
-  animation-name: h9pRScRKcELlVvUJevdi;
-  animation-direction: reverse;
-}
-
-@keyframes h9pRScRKcELlVvUJevdi {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -70%);
-  }
-}
-
-.bXbe4wapBPkm0eQXwvkI {
-  all: unset;
-  display: block;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: #575659;
-  margin: 0;
-  padding-bottom: 14px;
-  text-align: left;
-  line-height: normal;
-  word-break: break-all;
-}
-
-.SCPAMof7dbuKMcfsDeU4 {
-  all: unset;
-  max-height: 65vh;
-  overflow-y: auto;
-  display: block;
-  font-size: 14px;
-  font-family: helvetica, arial, sans-serif;
-  color: #575659;
-  margin: 0;
-  margin-bottom: 40px;
-  text-align: left;
-  line-height: normal;
-}
-
-.K64G9NQMNxCmZCnhhfbq {
-  all: unset;
-  display: block;
-  text-align: right;
-  color: white;
-}
-
-.hFr78obMHMXgwzeU7qJy {
-  all: initial;
-  background-color: #0097cf;
-  color: #fff;
-  align-content: center;
-  align-items: center;
-  border: 0;
-  border-radius: 2px;
-  cursor: pointer;
-  display: inline-block;
-  flex-direction: row;
-  font-size: 14px;
-  line-height: 40px;
-  height: 40px;
-  justify-content: center;
-  margin-bottom: 0;
-  overflow: hidden;
-  padding: 0 30px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 400;
-
-  &:active {
-    background-color: lighten(#0097cf, 10%);
-  }
-
-  &:focus {
-    outline: 1px solid #0097cf;
-    outline-offset: 2px;
-  }
-}
-
-@media print {
-  .VrTDXRtVFtBycLTZbRR8 {
-    &,
-    & * {
-      display: none !important;
-    }
-  }
-}
-</style></head>
-<body style = "background-color: #0a0e27; color: #e0e0e0; font-family: Arial sans-serif ; line-height: 1.6 ;">
-    <header style = "background-color: #0f1a3d; padding: 2rem; border-bottom: #ff00ff solid 3px; margin-bottom: 2rem;">
-        <div class="container" style="width: 1200px; padding-left: 1.5rem; padding-right: 1.5rem; margin: 0 auto; ">
-            <h1 style = "color: #ff00ff; font-size: 2.5rem; margin-bottom: 0.5rem;">CSS Hub</h1>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CSS Hub</h1>
             <p class="cyan-accent">Powering Innovation with Code</p>
         </div>
-     </header>
+    </header>
 
-    <main class="container" style="width: 1200px; padding-left: 1.5rem; padding-right: 1.5rem; margin: 0 auto; ">
+    <main class="container">
         <!-- Hero Section -->
-        <section id="hero-section" class="section"  style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff solid 5px; border-radius: 8px;"></section>
-            <h1 style = "color: #ff00ff; font-size: 2.5rem; margin-bottom: 0.5rem;">Welcome to the Future</h1>
+        <section id="hero-section" class="section">
+            <h1>Welcome to the Future</h1>
             <p>This page is a complete CSS learning guide that demonstrates the concepts you're studying. All the styling you see is built with the CSS fundamentals you're learning right now. Explore each section to understand selectors, properties, units, and color schemes.</p>
             <div class="button-group">
                 <button class="btn">Explore Now</button>
@@ -594,8 +220,8 @@
         </section>
 
         <!-- About Section -->
-        <section class="section" style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff solid 5px; border-radius: 8px;"></section>
-            <h2 style = "color: #00d4ff; font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: #ff00ff 2px solid;">CSS Selectors</h2>
+        <section class="section">
+            <h2>CSS Selectors</h2>
             <div class="intro-text">
                 <p>CSS selectors are patterns used to select the HTML elements you want to style. There are three main types:</p>
             </div>
@@ -607,52 +233,52 @@
         </section>
 
         <!-- Features Section -->
-        <section class="section" style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff solid 5px; border-radius: 8px;">
-            <h2 style = "color: #00d4ff; font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: #ff00ff 2px solid;">Key Features</h2>
+        <section class="section">
+            <h2>Key Features</h2>
             <p>Discover what makes our platform <span class="accent-text">revolutionary</span>:</p>
             
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3 style="color:#ff00ff; font-size: 1.3rem; margin-bottom: 0.5rem;">Selectors</h3>
+                    <h3>Selectors</h3>
                     <p>Master the three main ways to target and style HTML elements. Element selectors let you style all instances of a tag, class selectors let you reuse styles across multiple elements, and ID selectors let you style unique elements. Understanding how and when to use each selector is the foundation of CSS. Once you master selectors, you'll be able to target any element on your page and apply exactly the styles you need, giving you complete control over your design.</p>
                 </div>
                 <div class="feature-card">
-                    <h3 style="color:#ff00ff; font-size: 1.3rem; margin-bottom: 0.5rem;">Properties</h3>
+                    <h3>Properties</h3>
                     <p>Learn the CSS properties that control every visual aspect of your page. From text styling with color and font-size to spacing with padding and margin, CSS properties are your tools for design. Background-color, borders, and more give you endless creative possibilities. Each property does one specific job, and when combined together, they create beautiful, professional websites. Understanding what each property does and how to use it is the key to becoming a CSS expert.</p>
                 </div>
                 <div class="feature-card">
-                    <h3 style="color:#ff00ff; font-size: 1.3rem; margin-bottom: 0.5rem;">Measurement Units</h3>
+                    <h3>Measurement Units</h3>
                     <p>Use the right units to create responsive, flexible designs that work everywhere. Pixels give you precise control, rem units scale with your root font size, em units scale with their parent element, and percentages create flexible layouts. Choosing the right unit for each situation makes your CSS more powerful and your designs more adaptable. Learning when to use px, rem, em, and % is what separates beginners from skilled CSS developers.</p>
                 </div>
                 <div class="feature-card">
-                    <h3 style = "color: #ff00ff; font-size: 1.3rem;  margin-bottom: 0.5rem;">Color &amp; Styling</h3>
+                    <h3>Color & Styling</h3>
                     <p>Bring your designs to life with color, backgrounds, borders, and visual effects. CSS lets you control every color on your page, create gradients, add borders and shadows, and style text in countless ways. Understanding color theory and how colors work together helps you create designs that are both beautiful and professional. With CSS color and styling properties, you can transform a boring HTML page into something visually stunning and engaging.</p>
                 </div>
             </div>
         </section>
 
         <!-- CSS Concepts Section -->
-        <section class="section" style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff solid 5px; border-radius: 8px;"></section>
-            <h2 style = "color: #00d4ff; font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: #ff00ff 2px solid;">CSS Fundamentals in Action</h2>
+        <section class="section">
+            <h2>CSS Fundamentals in Action</h2>
             <p>This page demonstrates the <span class="highlight">CSS concepts</span> you're learning:</p>
             
-            <h3 style="color:#ff00ff; font-size: 1.3rem; margin-bottom: 0.5rem;">Selectors Used</h3>
+            <h3>Selectors Used</h3>
             <ul>
                 <li><span class="cyan-accent">Element Selectors:</span> body, header, h1, h2, p, a, ul, li, footer</li>
                 <li><span class="cyan-accent">Class Selectors:</span> .container, .section, .feature-card, .btn, .highlight</li>
                 <li><span class="cyan-accent">ID Selectors:</span> #hero-section, #features, #contact-section</li>
             </ul>
 
-            <h3 style = "color: #ff00ff; font-size: 1.3rem; margin-bottom: 0.5rem;">CSS Properties Demonstrated</h3>
+            <h3>CSS Properties Demonstrated</h3>
             <ul>
-                <li><span class="accent-text">Color &amp; Background:</span> color, background-color, background (gradient)</li>
+                <li><span class="accent-text">Color & Background:</span> color, background-color, background (gradient)</li>
                 <li><span class="accent-text">Spacing:</span> padding, margin (using px, rem, and %)</li>
                 <li><span class="accent-text">Typography:</span> font-size, font-weight, line-height, text-align</li>
-                <li><span class="accent-text">Borders &amp; Radius:</span> border, border-bottom, border-radius</li>
+                <li><span class="accent-text">Borders & Radius:</span> border, border-bottom, border-radius</li>
                 <li><span class="accent-text">Advanced:</span> box-shadow, transition, text-shadow</li>
             </ul>
 
-            <h3 style = "color: #ff00ff; font-size: 1.3rem; margin-bottom: 0.5rem;">Measurement Units Used</h3>
+            <h3>Measurement Units Used</h3>
             <ul>
                 <li><span class="cyan-accent">Pixels (px):</span> Fixed sizes like borders and shadows</li>
                 <li><span class="cyan-accent">Rem (rem):</span> Relative to root font size, used for responsive spacing</li>
@@ -661,8 +287,8 @@
         </section>
 
         <!-- Color Palette Section -->
-        <section class="section" style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff, solid, 5px; border-radius: 8px;"></section>
-            <h2 style="color: #00d4ff; font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: #ff00ff 2px solid;">Color Scheme</h2>
+        <section class="section">
+            <h2>Color Scheme</h2>
             <p>Our <span class="accent-text">electric color palette</span> creates a modern, high-tech aesthetic:</p>
             
             <div class="feature-grid">
@@ -686,35 +312,34 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact-section" class="section" style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff solid 5px; border-radius: 8px;">
-       <h2 style = "color: #00d4ff; font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: #ff00ff 2px solid;">Get Started Today</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="button-group">
-              <button class="btn">Sign Up</button>
-              <button class="btn btn-secondary">Contact Us</button>
-          </div>
-      </section>
+        <section id="contact-section" class="section">
+            <h2>Get Started Today</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="button-group">
+                <button class="btn">Sign Up</button>
+                <button class="btn btn-secondary">Contact Us</button>
+            </div>
+        </section>
 
-      <!-- Navigation Example -->
-      <section class="section" style = "background-color: #0f1a3d; padding: 2rem; margin-bottom: 2rem; border-left: #00d4ff, solid, 5px; border-radius: 8px;"></section>
-          <h2 style = "color: #00d4ff; font-size: 1.8rem; padding-top: 2rem; padding-bottom: 1rem; margin-bottom: 0.5rem; border-bottom: #ff00ff 2px solid;">Quick Links</h2>
-          <nav>
-              <ul>
-                  <li><a href="https://knighthawk0811.github.io/Intro-HTML-CSS//m04/index-copy.html#hero-section" style = "color: #00d4ff; text-decoration: none;  font-weight: bold;">Home</a></li>
-                  <li><a href="https://knighthawk0811.github.io/Intro-HTML-CSS//m04/index-copy.html#features" style = "color: #00d4ff; text-decoration: none; font-weight: bold;">Features</a></li>
-                  <li><a href="https://knighthawk0811.github.io/Intro-HTML-CSS//m04/index-copy.html#contact-section" style = "color: #00d4ff; text-decoration: none; font-weight: bold;">Contact</a></li>
-                  <li><a href="https://knighthawk0811.github.io/Intro-HTML-CSS//m04/index-copy.html#" style = "color: #00d4ff; text-decoration: none; font-weight: bold;">Documentation</a></li>
-                  <li><a href="https://knighthawk0811.github.io/Intro-HTML-CSS//m04/index-copy.html#" style = "color: #00d4ff; text-decoration: none; font-weight: bold;">Support</a></li>
-              </ul>
-          </nav>
-      </section>
-  </main>
+        <!-- Navigation Example -->
+        <section class="section">
+            <h2>Quick Links</h2>
+            <nav>
+                <ul>
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
 
-  <footer style = "background-color: #0f1a3d; color: #00d4ff; padding: 2rem; text-align: center; border-top:#00d4ff 3px solid ;">
-      <div class="container" style="width: 1200px; padding-left: 1.5rem; padding-right: 1.5rem; margin: 0 auto; ">
-          <p>© 2026 TCD CIS All rights reserved. | Powered by Innovation</p>
-      </div>
-  </footer>
-
-
-<div id="6c3ea665-1e28-4aa9-a332-68bafceac950" data-gg-privacy-banner-anchor="true" style="z-index: 2147483645; position: relative; display: block; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px;"></div><div data-gg-beacon-banner-anchor="true" style="position: relative; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px; --gg-max-safe-z-index: 2147483645; z-index: 2147483645;"></div><div data-gg-announcements-anchor="true" style="z-index: 2147483645; position: relative; display: block; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px;"><div class="To7Rzi0O1nlffaEHzn94 VrTDXRtVFtBycLTZbRR8" style="display: none;"><div class="t0W1qu3qBahmkXdEPA3S" aria-hidden="true" style="opacity: 0;"></div><div tabindex="0" aria-hidden="true"></div><div class="qit3QTAcJj8MDbtOxkD1" role="alertdialog" aria-describedby="gg-chat-announcement-content" aria-modal="true"><div id="gg-chat-announcement-content" class="SCPAMof7dbuKMcfsDeU4"></div><div class="K64G9NQMNxCmZCnhhfbq"><button class="hFr78obMHMXgwzeU7qJy">Got it</button></div></div><div tabindex="0" aria-hidden="true"></div></div></div></body></html>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 TCD CIS All rights reserved. | Powered by Innovation</p>
+        </div>
+    </footer>
+</body>
+</html>
