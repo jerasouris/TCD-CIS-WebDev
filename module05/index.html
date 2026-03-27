@@ -136,6 +136,24 @@
             box-shadow: 0 0 15px #E1E8BE(0, 212, 255, 0.5);
         }
 
+        .btn-secondary {
+            background-color: #87ae73;
+            color: #ffff;
+            border: none;
+            font-size: medium;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: .2rem;
+            text-decoration: underline;
+        }
+
+        .btn-secondary:hover {
+            background-color: #87ae73;
+            color: #E5FFBD;
+            box-shadow: 0 0 15px #E1E8BE(255, 0, 255, 0.5);
+        }
+
         /* ID Selector */
         #hero-section {
             color: #ffff;
@@ -190,9 +208,12 @@
         }
 
         a{
-          color: #00d4ff;
+          color: #ffff;
           text-decoration: none;
           font-weight: bold;
+        }
+        a:not([href*="github.io"]) {
+            color: #ffff;
         }
 
       .container{
@@ -208,8 +229,9 @@
         border-left: #FFE3D6 solid 5px;
         border-radius: 8px;
       }
-      #hero-section h1{
-        color: #FFE3D6;
+      /* to make sure that the change of h1 in the hero section cannot be overwritten at all. Also because there really isnt any other place to put it.*/
+      #hero-section > h1{
+        color: #FFE3D6 !important;
       }
       
     </style>
@@ -282,42 +304,11 @@
                 </div>
             </div>
         </section>
-
-        <!-- other features -->
-        <section class="section">
-            <h2>Other features</h2>
-            <p> </p>
-            
-            <h3>Holiday events</h3>
-            <ul>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-            </ul>
-            <p>There was also one collab that happened with carebears!</p>
-            <h3>Team organization</h3>
-            <ul>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-            </ul>
-
-            <h3>Fun facts</h3>
-            <ul>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-            </ul>
-        </section>
-
     </main>
     <footer>
         <div class="container">
+            <a href="https://dandys-world-robloxhorror.fandom.com/wiki/Main_Page">
+                <button class="btn-secondary">Wiki</button>
             <p>&copy; 2026 TCD CIS All rights reserved. | Powered by Innovation</p>
         </div>
     </footer>
